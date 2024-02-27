@@ -1,0 +1,14 @@
+﻿{
+  "Id": "XBbyV5Su60elailAzV82Bg",
+  "Reference": "FVRF9SbugkqXU0ZQWrUWQQ/XBbyV5Su60elailAzV82Bg",
+  "Name": "CodigoSeg",
+  "Type": "App",
+  "Created": "2023-07-01T21:16:50.3736997Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-07-01T22:07:01.8128503Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

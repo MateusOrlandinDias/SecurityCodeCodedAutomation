@@ -1,0 +1,75 @@
+{
+  "name": "SecurityCode",
+  "projectId": "c3529df2-e0e9-498e-8b3d-c2c32bf6d8f0",
+  "description": "The automation will generate an encrypted Sha1 security code from the user's personal information.\n\nThe user information will be captured from a dummy personal data generator from https://geradornv.com.br/ .\n\nThe Sha1 encryption will be generated from the input of the personal data at http://www.sha1-online.com/ .",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.CodedWorkflows": "[24.2.0-alpha.4786647]",
+    "UiPath.Excel.Activities": "[2.21.0-preview]",
+    "UiPath.Mail.Activities": "[1.20.2]",
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.Testing.Activities": "[23.6.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.6.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.6.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "35283fae-0a74-4a4e-830a-20c09fd96216",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "DadosPessoais.cs",
+      "uniqueId": "876efa71-4256-4ca4-8fd3-21605b4d79e6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GeraCodigoSeguranca.cs",
+      "uniqueId": "e7ca36e1-ebfa-48c9-bc1f-f8726e3df778",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

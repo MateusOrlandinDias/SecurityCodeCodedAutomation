@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ikSPFhQ-2ke1lLRNxweeSg",
+  "Reference": "FVRF9SbugkqXU0ZQWrUWQQ/ikSPFhQ-2ke1lLRNxweeSg",
+  "ParentRef": "FVRF9SbugkqXU0ZQWrUWQQ/1Dhz0v0CX068xyxxQv436g",
+  "Name": "Nome",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-07-01T22:00:06.5665515Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-07-01T22:00:06.5665515Z"
+}

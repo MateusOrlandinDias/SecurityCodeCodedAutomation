@@ -1,0 +1,13 @@
+﻿{
+  "Id": "gn7H6D67_Ui0D3NMBUVObQ",
+  "Reference": "FVRF9SbugkqXU0ZQWrUWQQ/gn7H6D67_Ui0D3NMBUVObQ",
+  "ParentRef": "FVRF9SbugkqXU0ZQWrUWQQ/1Dhz0v0CX068xyxxQv436g",
+  "Name": "AddPontuacao",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2023-07-01T22:00:06.4967934Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-07-01T22:00:06.4967934Z"
+}

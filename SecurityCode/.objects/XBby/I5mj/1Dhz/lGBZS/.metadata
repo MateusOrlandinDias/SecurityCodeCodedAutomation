@@ -1,0 +1,13 @@
+﻿{
+  "Id": "lGBZSFJESUy0vuquY7kOSA",
+  "Reference": "FVRF9SbugkqXU0ZQWrUWQQ/lGBZSFJESUy0vuquY7kOSA",
+  "ParentRef": "FVRF9SbugkqXU0ZQWrUWQQ/1Dhz0v0CX068xyxxQv436g",
+  "Name": "DataNascimento",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2023-07-01T22:00:06.5137281Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-07-01T22:00:06.5137281Z"
+}

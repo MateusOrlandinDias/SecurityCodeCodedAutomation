@@ -1,0 +1,13 @@
+﻿{
+  "Id": "zhbCVJ3fjESc8xItWoCDzw",
+  "Reference": "FVRF9SbugkqXU0ZQWrUWQQ/zhbCVJ3fjESc8xItWoCDzw",
+  "ParentRef": "FVRF9SbugkqXU0ZQWrUWQQ/6eKylUr_VkqBBtxuPyO_WQ",
+  "Name": "hashBtn",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2023-07-01T21:41:08.9969703Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-07-01T21:41:08.9969703Z"
+}

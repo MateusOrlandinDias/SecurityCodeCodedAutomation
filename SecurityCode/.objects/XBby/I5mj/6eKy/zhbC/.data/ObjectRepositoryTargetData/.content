@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RoQkg-oyZE2QeOBLUptpaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="http://www.sha1-online.com/" CvElementArea="1110, 267, 47, 21" CvTextArea="1117, 271, 33, 13" CvTextArgument="hash" CvType="Button" DesignTimeRectangle="1111, 268, 47, 21" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'hash'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='' aaname='hash' check:text='hash' /&gt;" Guid="2238eec3-f7c2-4d3a-93cb-e0347ec3b2b7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAZCAYAAACclhZ6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVFhH7Zc9DoIwFIA9h6fQGAbvgZtOxDs4Mrh6BwYmDsEAVyDpBQgjE2wmT/tHaQtqRE1bGb7w817L+/qgCYv1xgNXcEtm660gOPhwOZ+sJNj7QsZ2EdyMTkZNOO6W1oBFZhkTmSATQwVXgCaDZDA+hffmnmUoTsrU0OIjoQYU9XJSxO4zylgf34EgV2OP5h5gukz3EGU1o4wU0hYhyU+KmhRVpXR8XuKxTIDlCtknc4/wgc7wB4SAml6BHKU7sox8T/Di3Arfk+GrzVZX7YyIC3gXjZNRi9dkevDY+GtliAxdbZZ7h8roxUnfkGky4prSlkjaENS4vFv9XMY8ZhlT+R8Z/NfJE2xCk7FVBNPJ8BMXcEjGgxtmq2LMHawCgQAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA1 online' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fa972d6451b72b80162288a479b281f0.png" xmlns="">0KwfFL_5B006Ztyz0I77ccw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
