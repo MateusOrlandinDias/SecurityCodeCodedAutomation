@@ -2,6 +2,18 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.CodedWorkflows",
+        "Version": "24.2.0-alpha.4786647"
+      },
+      "Assemblies": [
+        "C:\\Users\\mateu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
+        "C:\\Users\\mateu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
+        "C:\\Users\\mateu\\.nuget\\packages\\uipath.codedworkflows\\24.2.0-alpha.4786647\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll"
+      ],
+      "Path": "C:\\Users\\mateu\\.nuget\\packages\\uipath.codedworkflows\\24.2.0-alpha.4786647"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.21.0-preview"
       },
@@ -228,18 +240,6 @@
         "C:\\Users\\mateu\\.nuget\\packages\\uipath.vision\\3.10.1\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\mateu\\.nuget\\packages\\uipath.uiautomation.activities\\23.6.1-preview"
-    },
-    {
-      "Package": {
-        "Id": "UiPath.CodedWorkflows",
-        "Version": "24.2.0-alpha.4786647"
-      },
-      "Assemblies": [
-        "C:\\Users\\mateu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/netstandard2.0/Newtonsoft.Json.dll",
-        "C:\\Users\\mateu\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/netstandard2.0/System.IO.Abstractions.dll",
-        "C:\\Users\\mateu\\.nuget\\packages\\uipath.codedworkflows\\24.2.0-alpha.4786647\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll"
-      ],
-      "Path": "C:\\Users\\mateu\\.nuget\\packages\\uipath.codedworkflows\\24.2.0-alpha.4786647"
     }
   ],
   "Conflicts": [],

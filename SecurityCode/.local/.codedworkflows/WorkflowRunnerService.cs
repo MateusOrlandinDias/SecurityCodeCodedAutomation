@@ -34,6 +34,14 @@ namespace SecurityCode
         }
 
         /// <summary>
+        /// Invokes the Main.xaml
+        /// </summary>
+        public void Main()
+        {
+            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
         /// Invokes the GeraCodigoSeguranca.cs
         /// </summary>
         public (string out_strCodigoSha1, int out_intTamanhoCodigo) GeraCodigoSeguranca(string in_inputHash)
@@ -45,17 +53,10 @@ namespace SecurityCode
         /// <summary>
         /// Invokes the PraticaSmallTalks/GeradorDados.cs
         /// </summary>
-        public void GeradorDados()
+        public (string out_strTextoSha1, string out_strNome) GeradorDados()
         {
             var result = _runWorkflowHandler(@"PraticaSmallTalks\GeradorDados.cs", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the Main.xaml
-        /// </summary>
-        public void Main()
-        {
-            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
+            return ((string)result["out_strTextoSha1"], (string)result["out_strNome"]);
         }
 
         /// <summary>

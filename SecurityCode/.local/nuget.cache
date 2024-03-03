@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ECKUqtibvgIl+KtVuhx8oG3ULDY/jXRGOaO38/T0FF3igZ7HUIFpgGXf7/m/0LI6A6I9vDp/ylVB63+U+D4XQ==",
+  "dgSpecHash": "JI7/J23x1PzB9vo+BtwSaDWKlKRFy5UCRyXqLZrqlefwMmSl1sHYPBix3ppPbbEBYkqMco03U0/5WjkdWErDFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Documentos\\UiPath\\SecurityCode\\.local\\",
+  "projectFilePath": "D:\\dev\\UiPath\\SecurityCodeCodedAutomation\\SecurityCode\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

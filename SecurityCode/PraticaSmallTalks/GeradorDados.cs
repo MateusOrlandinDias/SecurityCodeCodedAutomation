@@ -22,7 +22,7 @@ namespace SecurityCode.PraticaSmallTalks
     public class GeradorDados : CodedWorkflow
     {
         [Workflow]
-        public void Execute()
+        public (string out_strTextoSha1, string out_strNome) Execute()
         {
             var nvPrincipalScreen = uiAutomation.Open("Gerador NV: Tela principal");
             nvPrincipalScreen.Click("GeradorPessoasBtn");
@@ -39,6 +39,7 @@ namespace SecurityCode.PraticaSmallTalks
             
             string textoSha1 = MontaTextoSha1(nome, dataNascimento, tituloEleitor);
             Log(textoSha1);
+            return(out_strTextoSha1:textoSha1, out_strNome:nome);
         }
         
         public string MontaTextoSha1(string n, string d, string t)
