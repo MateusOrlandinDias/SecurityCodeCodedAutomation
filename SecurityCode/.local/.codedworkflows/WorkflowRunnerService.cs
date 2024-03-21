@@ -12,6 +12,7 @@ using UiPath.Testing.Enums;
 using UiPath.UIAutomationNext.API.Contracts;
 using UiPath.UIAutomationNext.API.Models;
 using UiPath.UIAutomationNext.Enums;
+using SecurityCode.ObjectRepository;
 using System.Threading.Tasks;
 using UiPath.Activities.Contracts;
 
@@ -34,14 +35,6 @@ namespace SecurityCode
         }
 
         /// <summary>
-        /// Invokes the Main.xaml
-        /// </summary>
-        public void Main()
-        {
-            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
         /// Invokes the GeraCodigoSeguranca.cs
         /// </summary>
         public (string out_strCodigoSha1, int out_intTamanhoCodigo) GeraCodigoSeguranca(string in_inputHash)
@@ -51,21 +44,29 @@ namespace SecurityCode
         }
 
         /// <summary>
-        /// Invokes the PraticaSmallTalks/GeradorDados.cs
+        /// Invokes the Base/DadosPessoais.cs
         /// </summary>
-        public (string out_strTextoSha1, string out_strNome) GeradorDados()
+        public (string out_strTextoSha1, string out_strNome) DadosPessoais()
         {
-            var result = _runWorkflowHandler(@"PraticaSmallTalks\GeradorDados.cs", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"Base\DadosPessoais.cs", new Dictionary<string, object>{}, default, default, default);
             return ((string)result["out_strTextoSha1"], (string)result["out_strNome"]);
         }
 
         /// <summary>
-        /// Invokes the DadosPessoais.cs
+        /// Invokes the GeraDadosPessoais.cs
         /// </summary>
-        public (string out_strTextoSha1, string out_strNome) DadosPessoais()
+        public (string out_strTextoSha1, string out_strNome) GeraDadosPessoais()
         {
-            var result = _runWorkflowHandler(@"DadosPessoais.cs", new Dictionary<string, object>{}, default, default, default);
+            var result = _runWorkflowHandler(@"GeraDadosPessoais.cs", new Dictionary<string, object>{}, default, default, default);
             return ((string)result["out_strTextoSha1"], (string)result["out_strNome"]);
+        }
+
+        /// <summary>
+        /// Invokes the Main.xaml
+        /// </summary>
+        public void Main()
+        {
+            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
         }
     }
 }

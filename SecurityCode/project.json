@@ -56,14 +56,20 @@
       "output": []
     },
     {
-      "filePath": "DadosPessoais.cs",
-      "uniqueId": "876efa71-4256-4ca4-8fd3-21605b4d79e6",
+      "filePath": "GeraCodigoSeguranca.cs",
+      "uniqueId": "829d32d1-0263-4ea8-ad17-6a49da8690bc",
       "input": [],
       "output": []
     },
     {
-      "filePath": "GeraCodigoSeguranca.cs",
-      "uniqueId": "e7ca36e1-ebfa-48c9-bc1f-f8726e3df778",
+      "filePath": "Base\\DadosPessoais.cs",
+      "uniqueId": "77a0c9bd-4ea7-45f9-b2bf-d21ef9099ec7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "GeraDadosPessoais.cs",
+      "uniqueId": "835afbe2-d924-4e90-897d-cd2ed43b0d14",
       "input": [],
       "output": []
     }
