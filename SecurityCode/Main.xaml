@@ -90,7 +90,7 @@
       <AssemblyReference>SecurityCode.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,711" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,770" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strSha1Texto" />
       <Variable x:TypeArguments="x:String" Name="strSha1Codigo" />
@@ -102,16 +102,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GeraDadosPessoais.cs - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="354,153" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="GeraDadosPessoais.cs">
-      <ui:InvokeWorkflowFile.Arguments>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_strTextoSha1">
-          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">strSha1Texto</CSharpReference>
-        </OutArgument>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_strNome">
-          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">strNome</CSharpReference>
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="354,212" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// GeraDadosPessoais&#xD;&#xA;&#xD;&#xA;out arguments:&#xD;&#xA;&#xD;&#xA;out_strTextoSha1: strTextoSha1&#xD;&#xA;&#xD;&#xA;out_strNome: strNome" />
     <ui:LogMessage DisplayName="Log Message - Nome" sap:VirtualizedContainerService.HintSize="354,181" sap2010:WorkflowViewState.IdRef="LogMessage_1">
       <ui:LogMessage.Level>
         <InArgument x:TypeArguments="ui:LogLevel">
