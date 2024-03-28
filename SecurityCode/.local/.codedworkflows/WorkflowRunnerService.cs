@@ -1,3 +1,4 @@
+using SecurityCode.ObjectRepository;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -26,6 +27,24 @@ namespace SecurityCode
         }
 
         /// <summary>
+        /// Invokes the GeraDadosPessoais.cs
+        /// </summary>
+        public (string out_strTextoSha1, string out_strNome) GeraDadosPessoais()
+        {
+            var result = _runWorkflowHandler(@"GeraDadosPessoais.cs", new Dictionary<string, object>{}, default, default, default);
+            return ((string)result["out_strTextoSha1"], (string)result["out_strNome"]);
+        }
+
+        /// <summary>
+        /// Invokes the GeraCodigoSeguranca.cs
+        /// </summary>
+        public (string out_strCodigoSha1, int out_intTamanhoCodigo) GeraCodigoSeguranca(string in_inputHash)
+        {
+            var result = _runWorkflowHandler(@"GeraCodigoSeguranca.cs", new Dictionary<string, object>{{"in_inputHash", in_inputHash}}, default, default, default);
+            return ((string)result["out_strCodigoSha1"], (int)result["out_intTamanhoCodigo"]);
+        }
+
+        /// <summary>
         /// Invokes the MostrarResultado.xaml
         /// </summary>
         public void MostrarResultado(string in_strCodigoSha1, int in_intTamanhoCodigo)
@@ -39,15 +58,6 @@ namespace SecurityCode
         public void Main()
         {
             var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
-        }
-
-        /// <summary>
-        /// Invokes the GeraCodigoSeguranca.cs
-        /// </summary>
-        public (string out_strCodigoSha1, int out_intTamanhoCodigo) GeraCodigoSeguranca(string in_inputHash)
-        {
-            var result = _runWorkflowHandler(@"GeraCodigoSeguranca.cs", new Dictionary<string, object>{{"in_inputHash", in_inputHash}}, default, default, default);
-            return ((string)result["out_strCodigoSha1"], (int)result["out_intTamanhoCodigo"]);
         }
     }
 }
