@@ -34,20 +34,20 @@ namespace SecurityCode
         }
 
         /// <summary>
+        /// Invokes the Main.xaml
+        /// </summary>
+        public void Main()
+        {
+            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
+        }
+
+        /// <summary>
         /// Invokes the GeraCodigoSeguranca.cs
         /// </summary>
         public (string out_strCodigoSha1, int out_intTamanhoCodigo) GeraCodigoSeguranca(string in_inputHash)
         {
             var result = _runWorkflowHandler(@"GeraCodigoSeguranca.cs", new Dictionary<string, object>{{"in_inputHash", in_inputHash}}, default, default, default);
             return ((string)result["out_strCodigoSha1"], (int)result["out_intTamanhoCodigo"]);
-        }
-
-        /// <summary>
-        /// Invokes the Main.xaml
-        /// </summary>
-        public void Main()
-        {
-            var result = _runWorkflowHandler(@"Main.xaml", new Dictionary<string, object>{}, default, default, default);
         }
     }
 }
